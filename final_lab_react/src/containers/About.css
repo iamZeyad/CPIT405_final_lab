@@ -1,0 +1,58 @@
+/* About.css */
+
+.About-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff; /* Set background color to white */
+    color: #333; /* Set text color to black */
+    padding: 20px;
+  }
+  .openAI{
+    color: grey;
+  }
+  .About-website {
+    text-align: center;
+    color: #555; /* Set website content color to grey */
+  }
+  
+  .About-website-header {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .About-website p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .About-developers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .About-developer-Zeyad,
+  .About-developer-Anas,
+  .About-developer-Faisal {
+    text-align: center;
+  }
+  
+  .Zeyad,
+  .Anas,
+  .Faisal {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .linkedin {
+    color: #007bff; /* Set LinkedIn link color to blue */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .linkedin:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Set LinkedIn link color to a darker blue on hover */
+  }
+  
